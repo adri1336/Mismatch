@@ -1,0 +1,39 @@
+html
+{
+    position: relative;
+    min-height: 100%;
+}
+
+.footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+
+.main-page
+{
+    margin-top: 1rem;
+    margin-bottom: calc(60px + 1rem); /* footer height */
+}
+
+.bg-custom-nav
+{
+    background-color: #be000f;
+}
+
+.label-custom-margin
+{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.label-imgprofile-custom-margin
+{
+    width: 100%;
+    margin-bottom: 1rem;
+}
